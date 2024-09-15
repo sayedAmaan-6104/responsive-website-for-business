@@ -1,0 +1,95 @@
+const products = [
+  {
+    imageSrc: "assets/images/product/TURNKEY CLEAN ROOM PROJECTS.jpg",
+    title: "TURNKEY CLEAN ROOM PROJECTS",
+    description: "ULTRA CLEAN IS WIDELY INVOLVED IN EXECUTING CLEAN ROOM PROJECTS, WHICH INCLUDES PHARMACEUTICALS, HOSPITALS AND HEALTH CARE SECTORS. WITH OVER 22 YEARS OF EXPERIENCE IN THE FIELD ,THE DEDICATED DESIGNING AND EXECUTION TEAM HAS EXPERTISE AND IN DEPTH KNOWLEDGE OF THE WORK. VARIOUS TIME BOUND AND QUALITY ORIENTED PROJECTS HAVE BEEN SUCCESFULLY EXECUTED BY US.WE STRIVE TO ATTAIN TIMELY AND SUCCESS FULL EXECUTION OF THE PROJECTS.",
+  },
+  {
+    imageSrc: "assets/images/product/DYNAMICPASSBOX 444.jpg",
+    title: "DYNAMICPASSBOX 444",
+    description: "Some time while transferring the material within the clean rooms of different grades it becomes necessary to protect the material from contamination during ransfer DYNAMIC PASS BOXES are very useful in this.Thse are having HEPA filtered air circulating within the woring area providing CLASS 100 ( ISO-5) environment .lecromagnetic or mechnical interlocking prevents the ooropening at same time. U.v.light provided to kill the microorganism. standard size: 2’ x 2’ x 2’ 3; x 3’ x 3’.other sizes can be made as per order. M.O.C. SS304/G.I.powder coated.",
+  },
+  {
+    imageSrc: "assets/images/product/vertical_laf.jpg",
+    title: "VERTICAL LEMINAR AIR FLOW UNITS",
+    description: "These are either ceiling suspended or stand mounted LAF used in clean rooms to protect the product from contamination ,generally installed above the filling ,filtration machines. to provide CLASS-100 cleanliness class. available in SS304/ G.I. powder coated constn. Standard size :3’ x 2’,4’x 2’, 4’x 3’, 4’ x 4’ other sizes can be made as per order.",
+  },
+   {
+    imageSrc: "assets/images/product/HEPA FILTER.jpg",
+    title: "HEPA FILTER",
+    description: "High efficiency particulate air filter (HEPA) is an absolute filter and is integral part of CLEAN ROOM. It is made out of borosilicate microfibers paper assembled in aluminum housing .A good resin bonding ensures no bypass of air between media and frame. These are available in EU-11 ,EU12,EU13,EU14 grade having minimum efficiency of 99.97% down to 0.3 micron. Standard depth is 50 and 300 mm..Other sizes are also made as per order.
+GRADE	SIZE IN MM	   CFM CAPACITY  INT.PRESSURE DROP% EFFIC. AS PER MIL-282
+EU-11	610 X 610 X 150	500	     25 mm of WG	99.97
+EU-11	610 X 610 X 305	1000	     25 mm of WG	99.97",
+  },
+  {
+    imageSrc: "assets/images/product/PREFILTER.jpg",
+    title: "PREFILTER",
+    description: "Pre filters are used in general air filtration application having medium dust holding capacity, made out from nonwoven synthetic media sandwiched between two layers of HDPE mesh assembled in aluminium frame supported by aluminium rod spacers to make it strong .These filters are washable and cleanable and are used as coarse filter to fine filter and also to protect the coil and HVAC system from dust loading. Available in standard depth of 50 mm. Other sizes are also made as per order. M.O.C is aluminium /G.I./SS304.
+GRADE	      SIZE IN MM  CFM CAPACITY  INT.PRESSURE DROP% DUST WEIGHT ARREST
+EU-2/G2	610 X 610 X 50	2000	2 mm of WG	80
+EU-2/G2	305 X 305 X 50	500	2 mm of WG	80
+EU-4/G4	610 X 610 X 50	2000	4 mm of WG	90
+EU-4/G4	305 X 305 X 50	500	4 mm of WG	90",
+  },
+   {
+    imageSrc: "assets/images/product/MICROVEE OR FINE FILTER.jpg",
+    title: "MICROVEE OR FINE FILTER",
+    description: "Microvee or Fine filter is extended Surface non woven synthetic media filter used in between PRE and HEPA filter to reduce dust loading on HEPA filter. These filters are having good dust holding capacity by virtue of more media and are washable and cleanable .Available in 150 and 305 mm depth flange or box type. Other sizes are also made as per order. M.O.C is aluminium /G.I. painted /SS304.
+GRADE	SIZE IN MM	CFM CAPACITY	INT.PRESSURE DROP	% EFF. AS PER EN -779
+EU-6/F6	610 X 610 X 150	1000	6 mm of WG	80
+EU-6/F6	610 X 610 X 305	2000	6 mm of WG	80
+EU-7/F7	610 X 610 X 150	1000	8 mm of WG	90
+EU-7/F7	610 X 610 X 305	2000	8 mm of WG	90",
+  },
+   {
+    imageSrc: "assets/images/product/SUPER HEPA FILTER.jpg",
+    title: "SUPER HEPA FILTER",
+    description: "UPER HEPA FILTER is superior version of HEPA FILTER It is pleated with more media to take care of additional CFM drawn .A SUPER HEPA can handle double CFM in the same size when compared to normal HEPA filter. It is made out of borosilicate micro fibers paper assembled in aluminum housing .A good resin bonding ensures no bypass of air between media and frame. These are aailable in EU-11 ,EU12,EU13,EU14 grade having minimum efficiency of 99.97% down to 0.3 micron. Standard depth is 5 and 300 mm..Other sizes are also made as per order.
+GRADE	SIZE IN MM	CFM CAPACITY INT.PRESSURE DROP	% EFFIC. AS PER MIL-282
+EU-11	610 X 610 X 150	1000	25 mm of WG	   99.97
+EU-11	610 X 610 X 305	2000	25 mm of WG	   99.97",
+  },
+   {
+    imageSrc: "assets/images/product/MINI PLEAT HEPA FILTER.jpg",
+    title: "MINI PLEAT HEPA FILTER",
+    description: "MINIPLEAT HEPA FILTER is sleek version of HEPA FILTER It is pleated with Hot melt separators to make way for additional pleats of media .it can handle same CFM in the same size when compared to normal HEPA filter but with almost half pressure drop . It is assembled in aluminum housing .A good resin bonding ensures no bypass of air between media and frame. These are available in EU-11 ,EU12,EU13,EU14 grade having minimum efficiency of 99.97% down to 0.3 micron. Standard depth is 69 and 100 mm..Other sizes are also made as per order.
+GRADE	SIZE IN MM	CFM CAPACITY INT.PRESSURE DROP	% EFFIC. AS PER MIL-282
+EU-11	610 X 610 X 69	500	15 mm of WG	  99.97
+EU-11	610 X 610 X 100	750	15 mm of WG	  99.97",
+  },
+   {
+    imageSrc: "assets/images/product/OPERATION THEATRE MODULES.jpg",
+    title: "OPERATION THEATRE MODULES",
+    description: "O.T. MODULES are basically vertical laminar air flow units installed in operation theatres of hospitals to protect the patient from the harmful contamination .to ensure this these units are installed just above the O.T. TABLE .Collars are provided in the units to connect the ducting from the .H.U. provision to pass O.T. light shaft from the unit. CLASS of CLEANLINESS 100 ( ISO-5) . Standard size 6’x 4’, 6 x 5’, 7’ X 4’ ,7’ X 5’.other sizes can be made as perorder.",
+  },
+   {
+    imageSrc: "assets/images/product/HIGH TEMPERATURE HEPA FILTER.jpg",
+    title: "HIGH TEMPERATURE HEPA FILTER",
+    description: "High Temperature (HEPA) air filter is an absolute filter and is integral part of CLEAN ROOM. It is mostly used in Dry Heat Sterilizer or Tunnels. Assembled in aluminum housing .A high temp. resin bonding ensures no bypass of air between media and frame. These are available in EU-11 ,EU12 grade only , having maximum temperature resistance of 150 deg.celc.. Standard depth is 150 and 300 mm..Other sizes are also made as per order.
+GRADE	SIZE IN MM	CFM CAPACITY INT.PRESSURE DROP	% EFFIC. AS PER MIL-282
+EU-11	610 X 610 X 150	500	25 mm of WG	  99.97
+EU-11	610 X 610 X 305	1000	25 mm of WG	  99.97
+",
+  },
+  {
+    imageSrc: "assets/images/product/BIO-SAFETY CABINETS.jpg",
+    title: "BIO-SAFETY CABINETS",
+    description: "These are very useful in R & D /TESTING LABS. Where harmfulproduct is under testing to provide protection to product,operator and to environment . To achieve this these units are designed with utmost care. Negative pressure is maintained within the unit by exhausting 10% of air outside the unit.U.v. light provided to kill microorganism.Available in CLASS I, II, III of protection and CLASS 100( ISO-5) cleanliness. Standard size 3’x 2’, 4’ x 2’.other sizes can be made as per order.",
+  },
+   {
+    imageSrc: "assets/images/product/STATICPASSBOX.jpg",
+    title: "STATICPASSBOX",
+    description: "Inside the clean zone materials need to be transferred from one grade of room to other. This demands the air to be restricted for transferring from one to other and prevent cross contamination.Pass boxes are made to solve this issue. These are airtight metal enclosures with doors ,three doors configuration having electromagnetic or mechanical interlocking to prevent all doors opening at the same time. U.v.light also provided for killing microrganism.standard size: 1’ x 1’ x 1’ , 2’ x 2’ x 2’. Other sizes can be made as per order.",
+  },
+   {
+    imageSrc: "assets/images/product/REVERSE LAMINAR AIR FLOW UNITS(DISPENSING/SAMPLING BOOTH).jpg",
+    title: "REVERSE LAMINAR AIR FLOW UNITS(DISPENSING/SAMPLING BOOTH)",
+    description: "These are vertical LAF units used in R.M.STORE of pharmaceuticals for dispensing and sampling of the powder. Fitted with side panels and vinyle strip curtains at entry .10% of air is exhausted from the unit to create negative pressure within the booth which ensures no powder spreading outside the booth. While CLASS-100 cleanliness provides protection of the material under process. available in SS304/ G.I. powder coated constn. Standard size :3’ x 2’,4’x 2’, 4’x 3’, 4’ x 4’ other sizes can be made as per order.",
+  },
+   {
+    imageSrc: "assets/images/product/HORIZONTAL LAMINAR AIR FLOW UNITS.jpg",
+    title: "HORIZONTAL LAMINAR AIR FLOW UNITS",
+    description: "These are Horizontal laminar flow units fitted with stand and table top , used in laboratories to protect the product from contamination while the product is under testing . Side acrylic or polycarbonate sheet ensures CLASS-100 cleanliness maintained throughout working table. U.v.light provided to kill microorganism. available in SS304/ G.I. powder coated constn. Standard size :3’ x 2’,4’x 2’. other sizes can be made as per order.",
+  },
+];

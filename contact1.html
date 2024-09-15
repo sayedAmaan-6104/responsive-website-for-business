@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ULTRA CLEAN AIR SYSTEMS AND TECHNOLOGIES</title>
+    
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('/conus.jpg') no-repeat center center; /* Set the background image */
+            background-size: cover; /* Ensure the image covers the viewport */
+            color: #333;
+        }
+        .container {
+            max-width: 600px;
+            margin: 40px auto;
+            background: rgba(255, 255, 255, 0.8); /* Semi-transparent white background for the form */
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border: 1px solid #1465e0;
+            text-align: center;
+        }
+
+        .container:hover {
+            background: radial-gradient(circle, #8cff5f, #7bbffe);
+            /* box-shadow: 0 8px 16px rgba(236, 3, 3, 0.823); */
+            box-shadow: 0 0 15px rgba(0, 123, 255, 0.7);
+            transform: scale(1.05);
+            border: 1px solid #007BFF;
+            font-size:medium;
+            /* transform: rotate(2deg); */
+            /* transform: translateY(-5px); */
+            animation: pulse 1s infinite;
+        }
+        h1 {
+            color: #ff0000;
+            font-size: 2em;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            margin-top: 10px;
+            font-weight: 600;
+            color: #444;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 12px;
+            margin-top: 5px;
+            border: 1px solid #dcdcdc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            font-size: 16px;
+            background-color: #f2eafa; /* Ensure input fields are readable on the image */
+        }
+        textarea {
+            height: 150px;
+            resize: vertical;
+        }
+        button {
+            display: block;
+            /* width: 100px;
+            height: 40px; */
+            padding: 12px 24px;
+            text-align: center;
+            margin-top: 20px;
+            background-color: #ff0000;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 18px;
+            transition: background-color 0.3s ease;
+        }
+
+        .submit-button-wrapper {
+            text-align: center; /* Centers the button horizontally */
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        .error {
+            color: #e74c3c;
+            margin-top: 5px;
+            font-size: 14px;
+        }
+        .success {
+            color: #2ecc71;
+            margin-top: 5px;
+            font-size: 14px;
+        }
+        .form-group:last-child {
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Contact Us</h1>
+        <form id="contact-form" onsubmit="handleSubmit(event)">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" placeholder="ENTER YOUR NAME...." name="name" required>
+                <span class="error" id="name-error"></span>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="ENTER YOUR EMAIL...." name="email" required>
+                <span class="error" id="email-error"></span>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" placeholder="TYPE YOUR FEEDBACK MESSAGE..." name="message" required></textarea>
+                <span class="error" id="message-error"></span>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <!-- <script>
+        function handleSubmit(event) {
+            event.preventDefault(); // Prevent the default form submission
+    
+            // Define the email details
+            const recipient = 'sayedamaan6104@gmail.com';
+            const subject = encodeURIComponent('Inquiry About Placing an Order');
+            const body = encodeURIComponent('I am interested in knowing more about and placing an order. Let\'s discuss!!');
+    
+            // Create the mailto URL
+            const mailtoURL = `mailto:${recipient}?subject=${subject}&body=${body}`;
+    
+            // Open the email client
+            window.location.href = mailtoURL;
+    
+            // Optional: Reset the form
+            document.getElementById('contact-form').reset();
+    
+            // Optional: Show success message
+            alert('Your email client has been opened with a pre-filled message.');
+        }
+    </script> -->
+    <!-- <script>
+        function handleSubmit(event) {
+            event.preventDefault(); // Prevent the default form submission
+    
+            // Fetch form data
+            const name = encodeURIComponent(document.getElementById('name').value);
+            const email = encodeURIComponent(document.getElementById('email').value);
+            const message = encodeURIComponent(document.getElementById('message').value);
+    
+            // Define the recipient and subject
+            const recipient = 'sayfay1979@gmail.com';
+            const subject = encodeURIComponent('Inquiry from ' + name);
+    
+            // Create the email body with the form details
+            const body = `Name: ${name}%0D%0A` +
+                         `Email: ${email}%0D%0A` +
+                         `Message: ${message}%0D%0A` +
+                         `%0D%0A` +
+                         `Sent from the Contact Us form`;
+    
+            // Create the mailto URL
+            const mailtoURL = `mailto:${recipient}?subject=${subject}&body=${body}`;
+    
+            // Open the email client
+            window.location.href = mailtoURL;
+    
+            // Optional: Reset the form
+            document.getElementById('contact-form').reset();
+    
+            // Optional: Show success message
+            alert('Your email client has been opened with your message.');
+        }
+    </script> -->
+    <script>
+//     function handleSubmit(event) {
+//     event.preventDefault();
+
+//     // Define the WhatsApp number and message
+//     const phoneNumber = '9820103283'; // Indian number
+//     const message = 'I am interested in knowing more about and placing an order, let\'s discuss!!';
+    
+//     // Encode the message
+//     const encodedMessage = encodeURIComponent(message);
+    
+//     // Construct the WhatsApp URL
+//     const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
+    
+//     // Open WhatsApp chat with the pre-filled message
+//     window.open(whatsappURL, '_blank');
+
+//     // Optional: Reset the form
+//     document.getElementById('contact-form').reset();
+
+//     // Optional: Show success message
+//     alert('Your message has been sent successfully!');
+// }
+function handleSubmit(event) {
+            event.preventDefault();
+
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const message = `I'm interested in knowing more about and placing an order. Let's discuss!\n\nName: ${name}\nEmail: ${email}`;
+
+            // Recipient's phone number
+            const ownerPhoneNumber = '9820103283'; // Replace with the recipient's phone number
+            const encodedMessage = encodeURIComponent(message);
+            const smsURL = `sms:${ownerPhoneNumber}?body=${encodedMessage}`;
+
+            // Open SMS app with prefilled message
+            window.location.href = smsURL;
+
+            // Optional: Show success message
+            alert('Your message has been prepared for sending!');
+        }
+</script>
+    
+    
+</body>
+</html>
